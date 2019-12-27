@@ -9,7 +9,6 @@ import pkg from './package.json';
 import { mdsvex } from 'mdsvex';
 import * as path from "path";
 
-const layout_dir = './src/routes/_svexy.svelte'
 
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
@@ -33,9 +32,7 @@ export default {
 				hydratable: true,
 				emitCss: true,
 				extensions: ['.svelte', '.svexy', '.svx'],
-				preprocess: mdsvex({
-					layout: path.join(__dirname, layout_dir),
-				})
+				preprocess: mdsvex({ })
 			}),
 			resolve({
 				browser: true,
@@ -82,9 +79,7 @@ export default {
 				hydratable: true,
 				emitCss: true,
 				extensions: ['.svelte', '.svexy', '.svx'],
-				preprocess: mdsvex({
-					layout: path.join(__dirname, layout_dir),
-				})
+				preprocess: mdsvex({ })
 			}),
 			resolve({
 				dedupe
