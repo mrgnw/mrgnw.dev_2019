@@ -9,11 +9,12 @@ import pkg from './package.json';
 import { mdsvex } from 'mdsvex';
 import * as path from "path";
 
-
+const layout_dir = './src/routes/_svexy.svelte'
 
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
+
 
 const onwarn = (warning, onwarn) => (warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) || onwarn(warning);
 const dedupe = importee => importee === 'svelte' || importee.startsWith('svelte/');
@@ -33,7 +34,7 @@ export default {
 				emitCss: true,
 				extensions: ['.svelte', '.svexy', '.svx'],
 				preprocess: mdsvex({
-					layout: path.join(__dirname, './src/routes/_layout.svelte'),
+					layout: path.join(__dirname, layout_dir),
 				})
 			}),
 			resolve({
@@ -82,7 +83,7 @@ export default {
 				emitCss: true,
 				extensions: ['.svelte', '.svexy', '.svx'],
 				preprocess: mdsvex({
-					layout: path.join(__dirname, './src/routes/_layout.svelte'),
+					layout: path.join(__dirname, layout_dir),
 				})
 			}),
 			resolve({
