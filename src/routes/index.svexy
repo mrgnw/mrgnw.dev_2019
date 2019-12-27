@@ -1,6 +1,3 @@
----
-title: Hällo!!
----
 
 ```js exec
 import Seriously from '../components/Seriously.svelte';
