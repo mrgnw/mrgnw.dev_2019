@@ -1,8 +1,26 @@
-<title>Hällo!!</title>
+---
+title: Hällo!!
+---
 
+```js exec
+import Seriously from '../components/Seriously.svelte';
+console.log("I mean SERIOUSLY")
+```
 
 # Hi there 🐍
 
 ```python
 print("Ssss SSssss")
 ```
+
+Markdown+JS made possible thanks to **[mdsvex](https://mdsvex.pngwn.io/)**
+
+<Seriously>
+
+### I wasn't joking
+
+```
+	This is real life
+```
+
+</Seriously>
