@@ -4,7 +4,6 @@ title: Hällo!!
 
 ```js exec
 import Seriously from '../components/Seriously.svelte';
-console.log("I mean SERIOUSLY")
 ```
 
 # Hi there 🐍
