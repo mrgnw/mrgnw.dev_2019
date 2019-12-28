@@ -14,7 +14,7 @@ npm run dev
 
 update these [package.json](./package.json) scripts
 
-```diff
+```
 "dev": "sapper dev  --ext '.svx .svexy .svelte'",
 "export": "sapper export --ext '.svx .svexy .svelte'",
 "start": "sapper dev --ext '.svx .svexy .svelte'",
