@@ -1,6 +1,6 @@
-## Built with [Svelte](https://svelte.dev) + [Sapper](https://sapper.svelte.dev) + [MDSvex](https://mdsvex.pngwn.io/)
+## Built with [Svelte](https://svelte.dev) + [Sapper](https://sapper.svelte.dev) + [MDSvex](https://mdsvex.pngwn.io/) + [svelte-mui](https://svelte-mui.ibbf.ru/)
 
-Github: [Sapper template](https://github.com/sveltejs/sapper-template) + [mdsvex](https://github.com/pngwn/MDsveX)
+Githubs: [Sapper template](https://github.com/sveltejs/sapper-template) • [mdsvex](https://github.com/pngwn/MDsveX) • [svelte-mui](https://github.com/vikignt/svelte-mui)
 
 ## Install
 
