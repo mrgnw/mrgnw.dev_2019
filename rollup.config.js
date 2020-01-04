@@ -32,7 +32,9 @@ export default {
 				hydratable: true,
 				emitCss: true,
 				extensions: ['.svelte', '.svexy', '.svx'],
-				preprocess: mdsvex({ })
+				preprocess: mdsvex({
+					extension: '.svx',
+				})
 			}),
 			resolve({
 				browser: true,
