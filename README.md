@@ -14,7 +14,7 @@ npm run dev
 
 update these [package.json](./package.json) scripts
 
-```
+```javascript
 "dev": "sapper dev  --ext '.svx .svexy .svelte'",
 "export": "sapper export --ext '.svx .svexy .svelte'",
 "start": "sapper dev --ext '.svx .svexy .svelte'",
@@ -33,14 +33,35 @@ svelte({
 
 ## Customize
 
-Customize each `mdsvex({ ... })`as needed ([mdsvex readme](https://github.com/pngwn/MDsveX/blob/master/README.md))
+Customize  `mdsvex({ ... })`as needed ([mdsvex readme](https://github.com/pngwn/MDsveX/blob/master/README.md))
 
-I changed the extension because I lack taste.
+You can do  `preprocess: mdsvex({ ... })` separately inside each client & server or definea  `preprocess` once up-front that you can re-use.
 
 ```javascript
-preprocess: mdsvex({
-	extension: '.svx',
-})
+const preprocess = [
+  // you can use multiple preprocessors
+	mdsvex({
+		extension: '.svx',
+	}),
+]
+
+export default {
+  client: { //...
+    plugins: [ //...
+      svelte({ //...
+				preprocess,
+			}),
+    	]
+  },
+  
+  server: { //...
+    plugins: [ //...
+      svelte({ //...
+				preprocess,
+			}),
+    	]
+  },
+    
 ```
 
 ## Deploy
@@ -50,3 +71,17 @@ preprocess: mdsvex({
 [netlify.toml](./netlify.toml) uses  `npm run export to export a static Sapper site.
 
 My project on Netlify automatically deploys from the github master branch when it changes.
+
+## Vscode customizations
+
+(Or [vscodium](https://vscodium.com))
+
+[Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=JamesBirtles.svelte-vscode) • [Svelte 3 Snippets](https://marketplace.visualstudio.com/items?itemName=JamesBirtles.svelte-vscode)
+
+Settings
+
+```json
+"files.associations": {"*.svx": "markdown",},
+"emmet.excludeLanguages": [],
+"emmet.includeLanguages": {"markdown": "html"},
+```
