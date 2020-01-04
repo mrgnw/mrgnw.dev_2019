@@ -7,7 +7,7 @@ Githubs: [Sapper template](https://github.com/sveltejs/sapper-template) • [mds
 ```
 npx degit "sveltejs/sapper-template#rollup" svexiest
 cd svexiest
-npm i -D mdsvex
+npm i -D mdsvex svelte-mui
 npm install
 npm run dev
 ```
