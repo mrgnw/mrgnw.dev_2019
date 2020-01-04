@@ -1,0 +1,45 @@
+---
+title: Why 
+---
+
+```js exec
+import Seriously from '../components/Seriously.svelte';
+import RainbowSvelte from '../components/RainbowSvelte.svelte';
+import ButtonsDemo from '../components/svelte-mui/ButtonsDemo.svelte';
+
+let  myArray = [
+  "just lovely",
+  "rioutous, family-friendly fun",
+  "beautiful",
+  "so darn neat!",
+  "the bessssst"
+];
+
+let amazeballs = myArray[Math.floor(Math.random()*myArray.length)];
+```
+
+
+## [SvelteJS](https://svelte.dev)
+<!-- <RainbowSvelte></RainbowSvelte> -->
+
+## [MDSveX](http://mdsvex.pngwn.io)
+<!-- todo: style amazeballs -->
+
+SvelteJS + Markdown = {amazeballs}
+
+{#if amazeballs == "the bessssst"}
+<Seriously>
+
+## Seriously
+
+![It's the bessst](https://media.giphy.com/media/l0NwKAlZzZ9pyi9fa/giphy.gif)
+
+</Seriously>
+
+{/if}
+
+## [svelte-mui](https://sapper-mui.ibbf.ru) material UI
+
+<ButtonsDemo></ButtonsDemo>
+
+There are some realliy good ones. This one was really easy to install.
