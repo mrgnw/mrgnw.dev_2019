@@ -1,18 +1,20 @@
+<h2><a href="https://sapper-mui.ibbf.ru">svelte-mui</a> material UI</h2>
+<p>Example:</p>
 <div class="counter">
 	{#if counter > 0}{counter}
 	{:else}click one
 	{/if}
 </div>
 
-<Button color="primary" title="Simple button" on:click={increment}>Button</Button>
+<Button  raised=true color="red" title="Simple button" on:click={increment}>Button</Button>
 
-<Button color="accent" on:click={increment}>
+<Button  color="primary" on:click={increment}>
     <!-- left icon -->
     <!-- <Icon path={cartOutline} style="margin: 0 8px 0 -4px;" /> -->
     Add
 </Button>
 
-<Button color='#00796b' on:click={increment}>
+<Button  color='#00796b' on:click={increment}>
     Send
     <!-- right icon -->
     <Icon path="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" style="margin: 0 -4px 0 8px;" />

@@ -5,7 +5,7 @@ title: Why
 ```js exec
 import Seriously from '../components/Seriously.svelte';
 import RainbowSvelte from '../components/RainbowSvelte.svelte';
-import ButtonsDemo from '../components/svelte-mui/ButtonsDemo.svelte';
+import SvelteMui from '../demo/SvelteMui.svelte';
 
 let  myArray = [
   "just lovely",
@@ -38,8 +38,4 @@ SvelteJS + Markdown = {amazeballs}
 
 {/if}
 
-## [svelte-mui](https://sapper-mui.ibbf.ru) material UI
-
-<ButtonsDemo></ButtonsDemo>
-
-There are some realliy good ones. This one was really easy to install.
+<SvelteMui></SvelteMui>
