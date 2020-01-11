@@ -68,7 +68,7 @@ export default {
 
 ### Netlify
 
-[netlify.toml](./netlify.toml) uses  `npm run export to export a static Sapper site.
+[netlify.toml](./netlify.toml) uses  `npm run export` to export a static Sapper site.
 
 My project on Netlify automatically deploys from the github master branch when it changes.
 
