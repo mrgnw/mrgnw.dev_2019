@@ -1,13 +1,13 @@
 ---
-title: Why 
+title: Why
 ---
 
 ```js exec
-import Seriously from '../components/Seriously.svelte';
-import RainbowSvelte from '../components/RainbowSvelte.svelte';
-import SvelteMui from '../demo/SvelteMui.svelte';
+import Seriously from "../components/Seriously.svelte";
+import RainbowSvelte from "../components/RainbowSvelte.svelte";
+import SvelteMui from "../demo/SvelteMui.svelte";
 
-let  myArray = [
+let levels_of_nice = [
   "just lovely",
   "rioutous, family-friendly fun",
   "beautiful",
@@ -15,14 +15,16 @@ let  myArray = [
   "the bessssst"
 ];
 
-let how_nice_is_it = myArray[Math.floor(Math.random()*myArray.length)];
+let how_nice_is_it =
+  levels_of_nice[Math.floor(Math.random() * levels_of_nice.length)];
 ```
 
-
 ## [SvelteJS](https://svelte.dev)
+
 <!-- <RainbowSvelte></RainbowSvelte> -->
 
 ## [MDSveX](http://mdsvex.pngwn.io)
+
 <!-- todo: style how_nice_is_it -->
 
 SvelteJS + Markdown = <code>{how_nice_is_it}</code>
