@@ -15,7 +15,7 @@ let  myArray = [
   "the bessssst"
 ];
 
-let amazeballs = myArray[Math.floor(Math.random()*myArray.length)];
+let how_nice_is_it = myArray[Math.floor(Math.random()*myArray.length)];
 ```
 
 
@@ -23,11 +23,11 @@ let amazeballs = myArray[Math.floor(Math.random()*myArray.length)];
 <!-- <RainbowSvelte></RainbowSvelte> -->
 
 ## [MDSveX](http://mdsvex.pngwn.io)
-<!-- todo: style amazeballs -->
+<!-- todo: style how_nice_is_it -->
 
-SvelteJS + Markdown = {amazeballs}
+SvelteJS + Markdown = <code>{how_nice_is_it}</code>
 
-{#if amazeballs == "the bessssst"}
+{#if how_nice_is_it == "the bessssst"}
 <Seriously>
 
 ## Seriously
@@ -38,4 +38,4 @@ SvelteJS + Markdown = {amazeballs}
 
 {/if}
 
-<SvelteMui></SvelteMui>
+<!-- <SvelteMui></SvelteMui> -->
