@@ -1,0 +1,39 @@
+---
+title: Dream stack
+---
+
+A few of my favorite things.
+### Web
+
+- [Svelte](https://svelte.dev/)
+  - Frontend
+  - JavaScript
+  - [MDsveX](https://mdsvex.pngwn.io/)
+    - Markdown
+- [Sapper](https://sapper.svelte.dev/)
+  - application framework
+  - PWA
+- [FastAPI](fastapi.tiangolo.com/)
+  - backend
+  - python
+- [EdgeDB](https://edgedb.com)
+  - database
+  - postgres
+  - python
+  - graphql
+
+### General
+
+- macOS
+- Zsh ([mzsh](https://github.com/mrgnw/mzsh))
+
+<!-- todo: style nested li to be in-line, like tags -->
+<!-- todo: nested components?? 🔥
+https://svelte.dev/tutorial/nested-components -->
+
+<!-- todo: markdown checkboxes?? https://github.com/benjycui/markdown-it-checkboxes -->
+<!-- todo: GitHub links -->
+
+
+
+
