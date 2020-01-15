@@ -9,7 +9,6 @@ A few of my favorite things.
   - Frontend
   - JavaScript
   - [MDsveX](https://mdsvex.pngwn.io/)
-    - Markdown
 - [Sapper](https://sapper.svelte.dev/)
   - application framework
   - PWA
@@ -34,6 +33,13 @@ https://svelte.dev/tutorial/nested-components -->
 <!-- todo: markdown checkboxes?? https://github.com/benjycui/markdown-it-checkboxes -->
 <!-- todo: GitHub links -->
 
-
+<style>
+li li {
+	color: blue;
+	display: inline-block;
+	border: 2px solid rgba(62,62,255,0.3);
+	border-radius: 0.2em;
+}
+</style>
 
 
