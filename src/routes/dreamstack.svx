@@ -3,12 +3,12 @@ title: Dream stack
 ---
 
 A few of my favorite things.
-### Web
+## Web
 
 - [Svelte](https://svelte.dev/)
-  - Frontend
-  - JavaScript
   - [MDsveX](https://mdsvex.pngwn.io/)
+  - frontend
+  - JavaScript
 - [Sapper](https://sapper.svelte.dev/)
   - application framework
   - PWA
@@ -21,7 +21,7 @@ A few of my favorite things.
   - python
   - graphql
 
-### General
+## General
 
 - macOS
 - Zsh ([mzsh](https://github.com/mrgnw/mzsh))
@@ -34,12 +34,32 @@ https://svelte.dev/tutorial/nested-components -->
 <!-- todo: GitHub links -->
 
 <style>
+ul {
+	list-style-type: none;
+	padding:0;
+    margin:0;
+	width: 100%;
+	display:inline;
+    padding:0;
+}
+ul li {
+	font-size: 1.3em;
+}
 li li {
-	color: blue;
+	color: #88d;
 	display: inline-block;
 	border: 2px solid rgba(62,62,255,0.3);
-	border-radius: 0.2em;
+	border-radius: 0.4em;
+	padding-left: .4em;
+	padding-right: .4em;
+	font-size: .7em !important;
+	font-weight: 200;
 }
+h2 {
+	margin-top: 1em;
+}
+
+
 </style>
 
 
