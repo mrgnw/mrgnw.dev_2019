@@ -2,7 +2,6 @@
 title: Dream stack
 ---
 
-A few of my favorite things.
 ## Web
 
 - [Svelte](https://svelte.dev/)
@@ -37,7 +36,6 @@ A few of my favorite things.
   - [mzsh](https://github.com/mrgnw/mzsh)
   - [zplugin](https://github.com/zdharma/zplugin)
 
-
 <!-- todo: nested components?? 🔥
 https://svelte.dev/tutorial/nested-components -->
 
@@ -70,6 +68,9 @@ li li {
 	font-size: .7em !important;
 	font-weight: 200;
 	text-transform: lowercase;
+}
+h2:first-child {
+	margin-top: 0;
 }
 h2 {
 	margin-top: 1em;
