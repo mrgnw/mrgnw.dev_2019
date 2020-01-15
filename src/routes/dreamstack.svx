@@ -27,9 +27,11 @@ A few of my favorite things.
 
 - apps
   - [vscodium](https://vscodium.com)
-  - Typora
-  - 
-  - DataGrip
+  - [Typora](https://typora.io)
+  - [Pastebot](https://tapbots.com/pastebot/)
+  - [Hotkey](https://apps.apple.com/us/app/hotkey-app/id975890633?mt=12)
+  - [Docker](https://www.docker.com/)
+  - [DataGrip](https://www.jetbrains.com/datagrip/)
 - shell
   - zsh
   - [mzsh](https://github.com/mrgnw/mzsh)
@@ -52,6 +54,11 @@ ul {
 }
 ul li {
 	font-size: 1.4em;
+	font-weight: 300;
+}
+ul li a{
+	text-decoration: none;
+	color: #40b3ff;
 }
 li li {
 	color: grey;
@@ -62,6 +69,7 @@ li li {
 	padding-right: .4em;
 	font-size: .7em !important;
 	font-weight: 200;
+	text-transform: lowercase;
 }
 h2 {
 	margin-top: 1em;
