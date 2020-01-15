@@ -6,32 +6,40 @@ A few of my favorite things.
 ## Web
 
 - [Svelte](https://svelte.dev/)
-  - [MDsveX](https://mdsvex.pngwn.io/)
   - frontend
-  - JavaScript
+  - javascript
+- [mdsvex](https://mdsvex.pngwn.io/)
+  - markdown
 - [Sapper](https://sapper.svelte.dev/)
-  - application framework
-  - PWA
+  - app framework
+  - pwa
 - [FastAPI](fastapi.tiangolo.com/)
   - backend
+  - api
   - python
 - [EdgeDB](https://edgedb.com)
   - database
   - postgres
-  - python
   - graphql
+  - python
 
 ## General
 
-- macOS
-- Zsh ([mzsh](https://github.com/mrgnw/mzsh))
+- apps
+  - [vscodium](https://vscodium.com)
+  - Typora
+  - 
+  - DataGrip
+- shell
+  - zsh
+  - [mzsh](https://github.com/mrgnw/mzsh)
+  - [zplugin](https://github.com/zdharma/zplugin)
 
-<!-- todo: style nested li to be in-line, like tags -->
+
 <!-- todo: nested components?? 🔥
 https://svelte.dev/tutorial/nested-components -->
 
 <!-- todo: markdown checkboxes?? https://github.com/benjycui/markdown-it-checkboxes -->
-<!-- todo: GitHub links -->
 
 <style>
 ul {
@@ -43,12 +51,12 @@ ul {
     padding:0;
 }
 ul li {
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 li li {
-	color: #88d;
+	color: grey;
 	display: inline-block;
-	border: 2px solid rgba(62,62,255,0.3);
+	border: 1px solid #21e2df;
 	border-radius: 0.4em;
 	padding-left: .4em;
 	padding-right: .4em;
