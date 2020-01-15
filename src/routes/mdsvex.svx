@@ -1,0 +1,55 @@
+---
+title: Why
+---
+
+```js exec
+import Seriously from "../components/Seriously.svelte";
+import RainbowSvelte from "../components/RainbowSvelte.svelte";
+import SvelteMui from "../demo/SvelteMui.svelte";
+
+let levels_of_nice = [
+  "just lovely",
+  "varrry nice",
+  "beautiful",
+  "so darn neat!",
+  "the besssst",
+	"super duper"
+];
+	
+	function shuffle_niceness(){
+		return levels_of_nice[Math.floor(Math.random() * levels_of_nice.length)];
+	}
+	function reset_niceness(){
+		how_nice_is_it = levels_of_nice[Math.floor(Math.random() * levels_of_nice.length)];
+	}
+	
+$: how_nice_is_it = shuffle_niceness()
+```
+<style>
+button {
+  border: 2px black solid;
+  padding: .2em .5em .2em .5em;
+  font-size: 1em;
+}
+</style>
+
+<!-- <RainbowSvelte></RainbowSvelte> -->
+
+## [MDSveX](http://mdsvex.pngwn.io)
+
+<!-- todo: style how_nice_is_it -->
+
+[SvelteJS](https://svelte.dev) + Markdown = <button on:click={reset_niceness}>**{how_nice_is_it}**</button>
+
+{#if how_nice_is_it == "the besssst"}
+<Seriously>
+
+## Seriously
+
+![It's the bessst](/bessst.gif)
+
+</Seriously>
+
+{/if}
+
+<!-- <SvelteMui></SvelteMui> -->

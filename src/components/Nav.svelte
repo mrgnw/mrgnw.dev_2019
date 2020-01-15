@@ -1,5 +1,6 @@
 <script>
 	export let segment;
+	// import { Button, Icon } from 'svelte-mui/src';
 </script>
 
 <style>
@@ -59,5 +60,8 @@
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
 		<!-- <li><a rel=prefetch class:selected='{segment === "blog"}' href='blog'>blog</a></li> -->
+		<a class="icon" target="_blank" href="https://github.com/mrgnw/mzsh">
+	</a>
 	</ul>
+	
 </nav>
