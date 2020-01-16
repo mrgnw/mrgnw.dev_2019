@@ -12,7 +12,7 @@ title: Dream stack
 - [Sapper](https://sapper.svelte.dev/)
   - app framework
   - pwa
-- [FastAPI](fastapi.tiangolo.com/)
+- [`FastAPI`](https://fastapi.tiangolo.com/)
   - backend
   - api
   - python
