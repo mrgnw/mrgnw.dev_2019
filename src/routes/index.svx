@@ -1,10 +1,12 @@
 ---
 title: Morgan (@mrgnw)
 ---
-
-- [Twitter](https://twitter.com/mrgnw)
-- [Github](https://github.com/mrgnw)
-- [LinkedIn](https://linkedin.com/in/mrgnw)
-- [Instagram](https://instagram.com/mrgnw2)
+```js exec
+import Socials from '../components/Socials.svelte'
+  
+```
+<Socials/>
 
 Made with [mdsvex](mdsvex)
+
+
