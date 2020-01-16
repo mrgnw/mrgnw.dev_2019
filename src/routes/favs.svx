@@ -16,6 +16,12 @@ title: Dream stack
   - backend
   - api
   - python
+- [DarkLang](https://darklang.com)
+  - backend
+  - api
+  - deployment
+  - api
+  - microservices
 - [EdgeDB](https://edgedb.com)
   - database
   - postgres
