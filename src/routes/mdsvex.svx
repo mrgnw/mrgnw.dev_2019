@@ -12,7 +12,7 @@ let levels_of_nice = [
   "varrry nice",
   "beautiful",
   "so darn neat!",
-  "the besssst",
+  "the bessst",
 	"super duper"
 ];
 	
@@ -41,7 +41,7 @@ button {
 
 [SvelteJS](https://svelte.dev) + Markdown = <button on:click={reset_niceness}>**{how_nice_is_it}**</button>
 
-{#if how_nice_is_it == "the besssst"}
+{#if how_nice_is_it == "the bessst"}
 <Seriously>
 
 ## Seriously
