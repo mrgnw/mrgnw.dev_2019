@@ -20,7 +20,6 @@ title: Dream stack
   - backend
   - api
   - deployment
-  - api
   - microservices
 - [EdgeDB](https://edgedb.com)
   - database
