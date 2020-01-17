@@ -26,6 +26,9 @@ title: Dream stack
   - postgres
   - graphql
   - python
+- [typer](https://github.com/tiangolo/typer)
+    - cli
+    - python
 
 ## General
 
@@ -40,6 +43,7 @@ title: Dream stack
   - zsh
   - [mzsh](https://github.com/mrgnw/mzsh)
   - [zplugin](https://github.com/zdharma/zplugin)
+  
 
 <!-- todo: nested components?? 🔥
 https://svelte.dev/tutorial/nested-components -->
