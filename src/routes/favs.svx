@@ -43,12 +43,7 @@ title: Dream stack
   - zsh
   - [mzsh](https://github.com/mrgnw/mzsh)
   - [zplugin](https://github.com/zdharma/zplugin)
-  
 
-<!-- todo: nested components?? 🔥
-https://svelte.dev/tutorial/nested-components -->
-
-<!-- todo: markdown checkboxes?? https://github.com/benjycui/markdown-it-checkboxes -->
 
 <style>
 ul {
@@ -61,11 +56,11 @@ ul {
 }
 ul li {
 	font-size: 1.4em;
-	font-weight: 300;
+    font-weight: 300;
 }
 ul li a{
 	text-decoration: none;
-	color: #40b3ff;
+    color: #40b3ff;
 }
 li li {
 	color: grey;
@@ -76,7 +71,10 @@ li li {
 	padding-right: .4em;
 	font-size: .7em !important;
 	font-weight: 200;
-	text-transform: lowercase;
+    text-transform: lowercase;
+}
+li li:first-child {
+    margin-left: .8em;
 }
 h2:first-child {
 	margin-top: 0;
@@ -86,6 +84,5 @@ h2 {
 }
 
 
+
 </style>
-
-

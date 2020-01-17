@@ -19,6 +19,9 @@ h1 {
 a {
 	color: inherit;
 }
+a:hover{
+	color: rgb(255, 62, 0) !important;
+}
 
 code {
 	font-family: menlo, inconsolata, monospace;

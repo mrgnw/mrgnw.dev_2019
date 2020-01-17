@@ -3,9 +3,8 @@ title: Morgan (@mrgnw)
 ---
 ```js exec
 import Socials from '../components/Socials.svelte'
-  
 ```
+
 <Socials/>
 
-Made with <a href="mdsvex" rel="prefetch">mdsvex</a>
-
+Site made with <a href="https://svelte.dev" rel="prefetch">Svelte</a> + [Sapper](https://sapper.svelte.dev/) + <a href="mdsvex" rel="prefetch">mdsvex</a>
