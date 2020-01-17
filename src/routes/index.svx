@@ -7,6 +7,5 @@ import Socials from '../components/Socials.svelte'
 ```
 <Socials/>
 
-Made with [mdsvex](mdsvex)
-
+Made with <a href="mdsvex" rel="prefetch">mdsvex</a>
 
