@@ -13,18 +13,29 @@ let levels_of_nice = [
   "beautiful",
   "so darn neat!",
   "the bessst",
-	"super duper"
+  "super duper"
 ];
-	
-	function shuffle_niceness(){
-		return levels_of_nice[Math.floor(Math.random() * levels_of_nice.length)];
-	}
-	function reset_niceness(){
-		how_nice_is_it = levels_of_nice[Math.floor(Math.random() * levels_of_nice.length)];
-	}
-	
-$: how_nice_is_it = shuffle_niceness()
+
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+let randomized_niceness = shuffle(levels_of_nice);
+$: pos = 0;
+function cycle_niceness() {
+  if (pos >= randomized_niceness.length - 1) {
+    pos = 0;
+  } else {
+    pos += 1;
+  }
+}
+$: how_nice_is_it = randomized_niceness[pos];
 ```
+
 <style>
 button {
   border: 2px black solid;
@@ -39,7 +50,7 @@ button {
 
 <!-- todo: style how_nice_is_it -->
 
-[SvelteJS](https://svelte.dev) + Markdown = <button on:click={reset_niceness}>**{how_nice_is_it}**</button>
+[SvelteJS](https://svelte.dev) + Markdown = <button on:click={cycle_niceness}>**{how_nice_is_it}**</button>
 
 {#if how_nice_is_it == "the bessst"}
 <Seriously>
