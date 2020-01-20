@@ -64,7 +64,7 @@
       </a>
     </li>
     <li>
-      <a class:selected={segment === 'favs'} href="Favs" rel="prefetch">favs</a>
+      <a class:selected={segment === 'favs'} href="favs" rel="prefetch">favs</a>
     </li>
     <!-- <li><a class:selected='{segment === "mdsvex"}' href='mdsvex' rel="prefetch">mdsvex</a></li> -->
     <!-- <li><a class:selected='{segment === "about"}' href='about'>about</a></li> -->
