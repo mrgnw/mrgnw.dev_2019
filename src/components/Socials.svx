@@ -1,0 +1,24 @@
+<script>
+import Icon from 'svelte-awesome/components/Icon.svelte'
+import { github, twitter, linkedin, instagram } from 'svelte-awesome/icons';
+export let scale=1.5
+
+</script>
+<style>
+ul {
+  padding: 0px;
+}
+li {
+  text-decoration: none;
+  display: inline-block;
+  padding: .25em;
+}
+/* li + li:before {
+    content: " • ";
+} */
+</style>
+
+- [<Icon data={github} scale={scale}/>](https://github.com/mrgnw)
+- [<Icon data={twitter} scale={scale}/>](https://twitter.com/mrgnw)
+- [<Icon data={linkedin} scale={scale}/>](https://linkedin.com/in/mrgnw)
+- [<Icon data={instagram} scale={scale}/>](https://instagram.com/mrgnw2)

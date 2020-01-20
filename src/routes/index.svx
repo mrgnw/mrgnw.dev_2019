@@ -2,7 +2,7 @@
 title: Morgan (@mrgnw)
 ---
 ```js exec
-import Socials from '../components/Socials.svelte'
+import Socials from "../components/Socials.svx";
 ```
 
 <Socials/>
