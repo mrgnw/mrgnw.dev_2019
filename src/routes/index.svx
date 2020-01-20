@@ -1,10 +1,20 @@
 ---
 title: Morgan (@mrgnw)
 ---
+
 ```js exec
 import Socials from "../components/Socials.svx";
 ```
-
-<Socials/>
+<Socials scale=3.2/>
 
 Site made with <a href="https://svelte.dev" rel="prefetch">Svelte</a> + [Sapper](https://sapper.svelte.dev/) + <a href="mdsvex" rel="prefetch">mdsvex</a>
+
+<!-- <Favs/> -->
+
+<style>
+/* index */
+h1 a {
+	text-decoration: none;
+}
+
+</style>
