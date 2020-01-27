@@ -1,0 +1,30 @@
+Thoughts so far:
+
+a) convert all <code> snippets into named inputs
+
+svx
+```markdown
+brew install `appname`
+echo "Installed `appname`"
+```
+->
+
+```html
+<script>
+$: foorby = ""
+</script>
+brew install <input bind:value={appname}/>
+```
+No extra forms - update one to update all $$$
+```html
+brew install <input bind:value={appname}/>
+echo "installed <input bind:value={appname}/>!"
+echo "<input bind:value={some-other-var}/>!"
+```
+
+Default values?
+````
+brew install `appname=yuss`
+```
+
+style inputs the same as `<code>`
