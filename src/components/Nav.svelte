@@ -66,9 +66,9 @@
     <li>
       <a class:selected={segment === 'favs'} href="favs" rel="prefetch">favs</a>
     </li>
-    <li>
+    <!-- <li>
       <a class:selected={segment === 'want'} href="want" rel="prefetch">want</a>
-    </li>
+    </li> -->
     <div class="nav-right">
       <Socials scale=1.5/>
     </div>
