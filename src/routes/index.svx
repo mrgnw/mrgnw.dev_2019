@@ -6,7 +6,9 @@ title: Morgan (@mrgnw)
 import Socials from "../components/Socials.svx";
 ```
 
-## Full-stack data engineer
+## Software engineer
+
+Python • Data • JavaScript
 
 
 Site made with <a href="https://svelte.dev" rel="prefetch">Svelte</a> + [Sapper](https://sapper.svelte.dev/) + <a href="mdsvex" rel="prefetch">mdsvex</a>
