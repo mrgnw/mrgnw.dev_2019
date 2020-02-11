@@ -5,7 +5,11 @@ title: Morgan (@mrgnw)
 ```js exec
 import Socials from "../components/Socials.svx";
 ```
-<Socials scale=3.2/>
+
+## Software engineer
+
+Python • Data • JavaScript
+
 
 Site made with <a href="https://svelte.dev" rel="prefetch">Svelte</a> + [Sapper](https://sapper.svelte.dev/) + <a href="mdsvex" rel="prefetch">mdsvex</a>
 
