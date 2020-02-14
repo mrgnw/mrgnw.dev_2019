@@ -1,12 +1,10 @@
 
 <script>
 	export let text = ""
-	$: encoded = encodeURI(text)
 	let prefix = "https://twitter.com/intent/tweet?text="
-	$: link = `${prefix}${text}`
-	// todo: automatically add location?
+	$: link = `${prefix}${encodeURI(text)}`
 </script>
 
-<a href="{link}">
+<a href="{link}" target="_blank">
 	<slot>@ me!</slot>
 </a>
