@@ -41,7 +41,7 @@ title: Dream stack
   - [DataGrip](https://www.jetbrains.com/datagrip/)
 - shell
   - zsh
-  - [mzsh](https://github.com/mrgnw/mzsh)
+  - [dotfiles](https://github.com/mrgnw/dotfiles)
   - [zplugin](https://github.com/zdharma/zplugin)
 
 
