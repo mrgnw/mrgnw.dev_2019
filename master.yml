@@ -1,0 +1,14 @@
+# digital ocean deployment
+name: master
+region: nyc
+static_sites:
+- build_command: npm run export
+  environment_slug: node-js
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: mrgnw/mrgnw.dev
+  name: master
+  routes:
+  - path: /
+- output_dir: __sapper__/export
